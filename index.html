@@ -5,32 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <header>
+  <header class="header">
     <nav>
-      <a class="link" href="">Web Studio</a>
-      <ul>
-        <li><a class="link" href="">Студия</a></li>
-        <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-        <li><a class="link" href="">Контакты</a></li>
+      <a class="link logo" href=""><span>Web</span>Studio</a>
+      <ul class="list">
+        <li><a class="link navigation-link" href="">Студия</a></li>
+        <li><a class="link navigation-link" href="./portfolio.html">Портфолио</a></li>
+        <li><a class="link navigation-link" href="#contacts">Контакты</a></li>
       </ul>
     </nav> 
-    <ul>
+    <ul class="list">
       <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
       <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
     </ul>
   </header> 
   
  <main>
-  <section>
+  <section class="hero">
     <h1>Эффективные решения <br> для вашего бизнеса</h1>
     <button type="button">Заказать услугу</button>
   </section>
 
   <section>
-    <ul>
+    <ul class="list">
       <li>
         <h3>Внимание к деталям</h3>
         <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -49,7 +52,7 @@
       </li>
     </ul>
     <h2>Чем мы занимаемся</h2>
-    <ul>
+    <ul class="list">
       <li><img src="./images/img1.jpg" alt="photo1" width="370"></li>
       <li><img src="./images/img2.jpg" alt="photo2" width="370"></li>
       <li><img src="./images/img3.jpg" alt="photo3" width="370"></li>
@@ -58,7 +61,7 @@
   
   <section>
   <h2>Наша команда</h2>
-  <ul>
+  <ul class="list">
     <li>
       <img src="./images/photo1.jpg" alt="Photo of Product Designer" width="270">
       <h3>Игорь Демьяненко</h3>
@@ -83,10 +86,10 @@
   </section>
  </main>
  
- <footer>
-    <a class="link" href="">Web Studio</a>
+ <footer class="footer" id="contacts">
+  <a class="link logo-footer" href=""><span>Web</span>Studio</a>
     <address>
-      <ul>
+      <ul class="list">
         <li><a class="link" href="https://goo.gl/maps/oXbqcdVndfFrmnHC9">г. Киев, пр-т Леси Украинки, 26</a></li>
         <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
