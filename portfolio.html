@@ -16,7 +16,7 @@
       <a class="link logo" href="./index.html">Web<span class="logo-header">Studio</span></a>
       <ul class="list">
         <li><a class="link navigation-link" href="./index.html">Студия</a></li>
-        <li><a class="link navigation-link" href="./portfolio.html">Портфолио</a></li>
+        <li><a class="link navigation-link current-link" href="./portfolio.html">Портфолио</a></li>
         <li><a class="link navigation-link" href="#contacts">Контакты</a></li>
       </ul>
     </nav> 
@@ -27,15 +27,18 @@
   </header> 
       
  <main>
-      <h1 hidden>Портфолио работ</h1>
-      <ul class="list">
-        <li><button type="button" class="portfolio-button">Все</button></li>
-        <li><button type="button" class="portfolio-button">Веб-сайты</button></li>
-        <li><button type="button" class="portfolio-button">Приложения</button></li>
-        <li><button type="button" class="portfolio-button">Дизайн</button></li>
-        <li><button type="button" class="portfolio-button">Маркетинг</button></li>
-      </ul>
-      <ul class="list">
+   <section>
+    <ul class="list">
+      <li><button type="button" class="portfolio-button">Все</button></li>
+      <li><button type="button" class="portfolio-button">Веб-сайты</button></li>
+      <li><button type="button" class="portfolio-button">Приложения</button></li>
+      <li><button type="button" class="portfolio-button">Дизайн</button></li>
+      <li><button type="button" class="portfolio-button">Маркетинг</button></li>
+    </ul>
+   </section>
+   <section>
+       <h1 class="visually-hidden">Портфолио работ</h1>
+       <ul class="list">
         <li>
           <a href="" class="link">
             <img src="./images/img-website-first.jpg" alt="Вебсайт Технокряк" width="370" height="294">
@@ -100,6 +103,7 @@
           </a>
         </li>
       </ul>    
+   </section>
  </main>
       
  <footer class="footer" id="contacts">

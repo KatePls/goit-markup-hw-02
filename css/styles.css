@@ -63,7 +63,9 @@ color: var(--main-light-color);
 .contact-header:hover, .contact-header:focus{
     color: var(--brand-color);
     }
-        
+ nav .current-link{
+     color: var(--brand-color);
+ }     
 /*============ END HEADER ===================*/
 
 /*==============   HERO  ===================*/
@@ -193,4 +195,8 @@ font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
 color: var(--main-medium-color);   
+}
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
 }
